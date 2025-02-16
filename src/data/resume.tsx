@@ -116,6 +116,58 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Trip shepherd",
+      href: "https://www.tripshepherd.com/",
+      dates: "Sep 2023",
+      active: true,
+      description:
+        "Seesight Tours is a user-friendly platform that allows travelers to book, manage, and customize tours seamlessly. With an intuitive interface and a streamlined booking system, users can explore various tour options, track their itineraries, and make modifications effortlessly.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "TailwindCSS",
+        "Mui",
+        "Stripe",
+        "Firebase",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.tripshepherd.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/trip1.png",
+      video: "",
+    },
+    {
+      title: "Rebolet Shop",
+      href: "https://rebolet.shop/en",
+      dates: "April 2023 - March 2024",
+      active: true,
+      description:
+        "Rebolet is a cutting-edge sustainable returns solution designed for e-commerce merchants. The platform specializes in logistics and re-commerce of returned items, helping businesses reduce waste, lower costs, and maximize recovery value.",
+      technologies: [
+        "React.js",
+        "Typescript",
+        "MongoDb",
+        "Express js",
+        "TailwindCSS",
+        "Stripe",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://travelwithghost.netlify.app/s",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/reb1.png",
+      video:
+        "",
+    },
+    {
       title: "Movies Listing App",
       href: "https://ghostmovies.netlify.app/",
       dates: "Jan 2023",
@@ -158,59 +210,7 @@ export const DATA = {
       ],
       image: "/resume.png",
       video: "",
-    },
-    {
-      title: "Trip shepherd",
-      href: "https://www.tripshepherd.com/",
-      dates: "Sep 2023",
-      active: true,
-      description:
-        "Tourism web app built in next js",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "TailwindCSS",
-        "Mui",
-        "Stripe",
-        "Firebase",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.tripshepherd.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/tripsheperd.png",
-      video: "",
-    },
-    {
-      title: "Airbnb Clone",
-      href: "https://travelwithghost.netlify.app/",
-      dates: "April 2023 - March 2024",
-      active: true,
-      description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "React.js",
-        "Typescript",
-        "MongoDb",
-        "Express js",
-        "TailwindCSS",
-        "Stripe",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://travelwithghost.netlify.app/s",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/airbnb.png",
-      video:
-        "",
-    },
+    }
   ],
   hackathons: [
     // {
